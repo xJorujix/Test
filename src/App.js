@@ -3,39 +3,39 @@ import React, { useState } from 'react';
 export default function App() {
 	const questions = [
 		{
-			questionText: 'What is the capital of France?',
+			questionText: 'What is the sum of 130+125+191?',
 			answerOptions: [
-				{ answerText: 'New York', isCorrect: false },
-				{ answerText: 'London', isCorrect: false },
-				{ answerText: 'Paris', isCorrect: true },
-				{ answerText: 'Dublin', isCorrect: false },
+				{ answerText: '335', isCorrect: false },
+				{ answerText: '456', isCorrect: false },
+				{ answerText: '446', isCorrect: true },
+				{ answerText: '426', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'Who is CEO of Tesla?',
+			questionText: '110 divided by 10 is',
 			answerOptions: [
-				{ answerText: 'Jeff Bezos', isCorrect: false },
-				{ answerText: 'Elon Musk', isCorrect: true },
-				{ answerText: 'Bill Gates', isCorrect: false },
-				{ answerText: 'Tony Stark', isCorrect: false },
+				{ answerText: '10', isCorrect: false },
+				{ answerText: '11', isCorrect: true },
+				{ answerText: '1100', isCorrect: false },
+				{ answerText: 'None Of These', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'The iPhone was created by which company?',
+			questionText: 'What is the next prime number after 5?',
 			answerOptions: [
-				{ answerText: 'Apple', isCorrect: true },
-				{ answerText: 'Intel', isCorrect: false },
-				{ answerText: 'Amazon', isCorrect: false },
-				{ answerText: 'Microsoft', isCorrect: false },
-			],
-		},
-		{
-			questionText: 'How many Harry Potter books are there?',
-			answerOptions: [
-				{ answerText: '1', isCorrect: false },
+				{ answerText: '6', isCorrect: true },
 				{ answerText: '4', isCorrect: false },
-				{ answerText: '6', isCorrect: false },
-				{ answerText: '7', isCorrect: true },
+				{ answerText: '2', isCorrect: false },
+				{ answerText: '10', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'If we minus 712 from 1500, how much do we get?',
+			answerOptions: [
+				{ answerText: '708', isCorrect: false },
+				{ answerText: '828', isCorrect: false },
+				{ answerText: '768', isCorrect: false },
+				{ answerText: '788', isCorrect: true },
 			],
 		},
 	];
